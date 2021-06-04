@@ -1,0 +1,12 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;  
+    scroll-behavior: smooth;  
+    font-family: 'Lato', sans-serif;
+}
+
+.container{
+    height:100vh;
+    background-image: linear-gradient(to right, #161616, rgb(49, 49, 49));
+}
