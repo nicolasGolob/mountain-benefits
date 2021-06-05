@@ -10,3 +10,48 @@
     height:100vh;
     background-image: linear-gradient(to right, #161616, rgb(49, 49, 49));
 }
+
+.container img{
+    position: absolute;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.main-title{
+    font-size:2rem;
+    position: fixed;
+    color: rgb(189, 189, 189);
+    top: 31%;
+    left:65%;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+}
+
+/****************** second section *************/
+
+.content {
+    position: absolute;
+    padding:3rem;
+    background: rgb(27, 27, 27);
+    color: rgb(155, 155, 155);
+    z-index: 11;
+}
+.content h2 {
+    font-size:1.5rem;
+    display:flex;
+    justify-content: center;
+    margin-bottom: 2rem; 
+    /* opacity: 0;
+    visibility: hidden; */
+}
+
+.content p {
+    font-size:1.1rem;
+    display:flex;
+    justify-content: center;
+    /* opacity: 0;
+    visibility: hidden; */
+}
