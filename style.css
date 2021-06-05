@@ -30,6 +30,10 @@
     visibility: hidden;
 }
 
+.valley-bottom{
+    z-index: 5;
+}
+
 /****************** second section *************/
 
 .content {
